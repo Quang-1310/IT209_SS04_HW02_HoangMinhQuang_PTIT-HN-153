@@ -6,7 +6,7 @@
 git checkout -b feature-update
 
 # Chỉnh sửa dòng mô tả trong README.md và commit
-echo "# Dự Án Quản Lý Học Viên - Phiên bản nâng cao từ nhánh feature-update" > README.md
+echo "# Phát triển tính năng mới nâng cao" > README.md
 git add README.md
 git commit -m "feat: update project title on feature-update branch"
 ```
@@ -19,7 +19,7 @@ git commit -m "feat: update project title on feature-update branch"
 git checkout main
 
 # Chỉnh sửa cùng dòng mã trong README.md với nội dung khác
-echo "# Dự Án Quản Lý Học Viên - Phiên bản ổn định từ nhánh main" > README.md
+echo "# Tính năng mới ỏn định" > README.md
 git add README.md
 git commit -m "fix: update project title on main branch"
 ```
