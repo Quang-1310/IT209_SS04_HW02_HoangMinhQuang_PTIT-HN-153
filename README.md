@@ -94,12 +94,3 @@ Chạy lệnh kiểm tra theo yêu cầu đề bài:
 git log --graph --oneline
 ```
 
-**Kết quả hiển thị đồ thị nhánh:**
-```text
-*   7c2d9a1 (HEAD -> main) Merge branch 'feature-update' into main - Resolved conflict manually
-|\  
-| * 8f9e0d1 (feature-update) feat: update project title on feature-update branch
-* | 3c4d5e6 fix: update project title on main branch
-|/  
-* 1a2b3c4 chore: initial project repository structure
-```
