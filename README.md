@@ -47,9 +47,9 @@ Automatic merge failed; fix conflicts and then commit the result.
 Mở file `README.md`, Git chèn các thẻ đánh dấu xung đột như sau:
 ```markdown
 <<<<<<< HEAD
-# Dự Án Quản Lý Học Viên - Phiên bản ổn định từ nhánh main
+# Tính năng mới ổn định
 =======
-# Dự Án Quản Lý Học Viên - Phiên bản nâng cao từ nhánh feature-update
+# Phát triển tính năng mới
 >>>>>>> feature-update
 ```
 
@@ -61,7 +61,7 @@ Mở file `README.md`, Git chèn các thẻ đánh dấu xung đột như sau:
 **Thao tác xử lý thủ công:**
 Xóa bỏ hoàn toàn các ký hiệu `<<<<<<<`, `=======`, `>>>>>>>` và kết hợp nội dung mong muốn:
 ```markdown
-# Dự Án Quản Lý Học Viên - Phiên bản hợp nhất hoàn chỉnh (Main & Feature-Update)
+# Tính năng hoàn chỉnh
 ```
 
 ---
@@ -80,7 +80,7 @@ git commit -m "Merge branch 'feature-update' into main - Resolved conflict manua
 ## 2. NỘI DUNG TỆP README.MD SAU KHI GIẢI QUYẾT XUNG ĐỘT HOÀN CHỈNH
 
 ```markdown
-# Dự Án Quản Lý Học Viên - Phiên bản hợp nhất hoàn chỉnh (Main & Feature-Update)
+# Tính năng hoàn chỉnh
 
 Dự án đã được gộp thành công giữa hai nhánh `main` và `feature-update`. Toàn bộ xung đột trên file README.md đã được xử lý thủ công an toàn, giữ vững tính toàn vẹn của mã nguồn.
 ```
